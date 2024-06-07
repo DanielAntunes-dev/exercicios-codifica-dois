@@ -14,7 +14,7 @@ while (true) {
     console.log(
       "Tipo de carro inválido. Por favor, escolha entre 'popular', 'luxo' ou 'sair'."
     );
-    continue; 
+    continue;
   }
 
   const diasAluguel = parseInt(prompt("Quantos dias de aluguel: "));

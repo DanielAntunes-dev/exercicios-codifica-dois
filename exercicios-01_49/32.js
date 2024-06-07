@@ -28,7 +28,6 @@ function executarOperacoes(M) {
   console.table(matrizModificada);
 }
 
-// Exemplo de uso
 const M = [
   [12, -7, 5, 6, 9],
   [9, -4, 11, 8, -12],
