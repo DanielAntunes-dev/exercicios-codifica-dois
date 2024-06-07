@@ -12,7 +12,7 @@ function calcularPesoIdeal(alt, sexo) {
 
 while (true) {
   let altura = parseFloat(prompt("Digite sua altura em metros: "));
-  let sexo = prompt("Digite seu sexo (masculino/feminino): ");
+  let sexo = prompt("Digite seu sexo (masculino/feminino): ").toLowerCase();
 
   let pesoIdeal = calcularPesoIdeal(altura, sexo);
 
